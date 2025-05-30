@@ -1,0 +1,66 @@
+.navbar_full_outer_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFAF5;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar_logo{
+    height: 45px;
+    width: 110px;
+}
+
+.navbar_itmes_div{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar_book_appointment{
+    background-color: #F8943F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 25px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border: solid 1px #DE6F0D
+}
+
+.navbar_items_logo{
+    height: 20px;
+}
+
+.navbar_contact_div{
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    border: solid 1px ;
+}
+
+
+@media screen and (max-width: 480px){
+
+    .navbar_full_outer_div{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .navbar_logo{
+        height: 35px;
+        width: 90px;
+    }
+
+    .navbar_itmes_div{
+        display: block;
+    }
+
+    .navbar_book_appointement_mobile{
+        display: none;
+    }
+}
