@@ -65,7 +65,7 @@
 
 /* ------mobile-style ---------*/
 
-@media  screen and (max-width: 480px){
+@media  screen and (max-width: 576px){
 
     .home_main_bg_div{
         height: 400px;
@@ -157,7 +157,7 @@
 }
 
 
-@media  screen and (max-width: 480px){
+@media  screen and (max-width: 576px){
     .home_form_section{
         height: auto;
     }

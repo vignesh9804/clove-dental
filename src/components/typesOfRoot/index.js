@@ -42,7 +42,7 @@ const TypesOfRoot = () => {
 
   return (
     <div className="mt-5 d-flex flex-column align-items-center">
-      <h4 className="mb-3">Types of Root Canal Treatments</h4>
+      <h4 className="mb-3">Types of Root Canal Treatments</h4>
       <p className="mb-4">
         In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with special material.
       </p>

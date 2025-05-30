@@ -11,7 +11,7 @@ const WhyToChoose = () => {
             <div className='d-xl-flex justify-content-xl-center mt-5'>
                 <ul className='reasons_ul order-0 order-xl-0'>
                     {reasonsList.map((eachItem) =>
-                    <div className='d-flex justify-content-between align-items-center'>
+                    <div className='d-flex justify-content-between align-items-center reasons_single_div'>
                         <li className='list_reasons'>{eachItem}</li>
                         <p className='list_reasons_plus_icon'>+</p>
                     </div>)}

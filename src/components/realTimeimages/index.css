@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
 
     .real_time_samples_section{
         margin-top: 20px;

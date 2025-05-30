@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
     .all_route_card_div{
         overflow: auto;
         width: 100vw;

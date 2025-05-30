@@ -45,11 +45,15 @@
     display: none;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
     .footer_img{
         display: none;
     }
     .footer_img_2{
         display: block;
+    }
+
+    .reasons_ul{
+        max-width: 100vw;
     }
 }
