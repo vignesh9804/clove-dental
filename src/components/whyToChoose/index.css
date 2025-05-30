@@ -32,3 +32,24 @@
         width: 100vw;
     }
 }
+
+
+
+.footer_img,.footer_img_2{
+    width: 100vw;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.footer_img_2{
+    display: none;
+}
+
+@media screen and (max-width:400px){
+    .footer_img{
+        display: none;
+    }
+    .footer_img_2{
+        display: block;
+    }
+}

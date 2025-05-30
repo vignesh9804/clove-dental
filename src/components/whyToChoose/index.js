@@ -18,7 +18,8 @@ const WhyToChoose = () => {
                 </ul>
                 <img src="/imagesAndIcons/whyToChoose/img1.png" alt="reason_sample" className='img_reasons order-1 order-xl-1'/>
             </div>
-
+            <img src="/imagesAndIcons/home/footer.png" alt="footer" className='footer_img' />
+            <img src="/imagesAndIcons/home/footer2.png" alt="footer" className='footer_img_2' />
         </div>
     )
 }
