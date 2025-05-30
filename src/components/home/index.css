@@ -151,8 +151,65 @@
     align-items: center;
 }
 
+.form_terms_section{
+    display: flex;
+    gap: 10px;
+}
+
+
 @media  screen and (max-width: 480px){
     .home_form_section{
-        height: 400px;
+        height: auto;
     }
+
+    .form_book_appointement{
+        display: block;
+    }
+}
+
+
+/* -------home scroll section------- */
+.home_bottom_scroll_section_wrapper {
+  overflow: hidden;
+  background-color: #FFFAF5;
+  padding: 10px 0;
+  position: relative;
+}
+
+.home_bottom_scroll_section {
+  display: flex;
+  gap: 30px;
+  animation: scrollLeft 25s linear infinite;
+  width: max-content;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.home_scroll_item_div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.scroll_logo_img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.scroll_name_span {
+  color: #EA7D28;
+  font-weight: 600;
+  margin-right: 4px;
 }
